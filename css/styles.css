@@ -10850,7 +10850,7 @@ video.bg-video {
   top: 50%;
   left: 80%; /* Ajuste para que esté en el lado derecho (100% - 20%) */
   width: 20%; /* Establecer el ancho al 20% del ancho total */
-  height: 50%;
+  height: auto;
   transform: translateX(-50%) translateY(-50%);
   z-index: 0;
 }
