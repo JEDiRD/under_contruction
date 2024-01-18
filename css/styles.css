@@ -10848,8 +10848,8 @@ body:before {
 video.bg-video {
   position: fixed;
   top: 50%;
-  left: 50%;
-  min-width: 100%;
+  left: 80%; /* Ajuste para que esté en el lado derecho (100% - 20%) */
+  min-width: 20%; /* Cambiado para cubrir solo el 20% del ancho total */
   min-height: 100%;
   width: auto;
   height: auto;
