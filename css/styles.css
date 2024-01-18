@@ -10849,13 +10849,12 @@ video.bg-video {
   position: fixed;
   top: 50%;
   left: 80%; /* Ajuste para que esté en el lado derecho (100% - 20%) */
-  min-width: 20%; /* Cambiado para cubrir solo el 20% del ancho total */
-  min-height: 100%;
-  width: auto;
+  width: 20%; /* Establecer el ancho al 20% del ancho total */
   height: auto;
   transform: translateX(-50%) translateY(-50%);
   z-index: 0;
 }
+
 
 @media (pointer: coarse) and (hover: none) {
   body {
